@@ -1,4 +1,19 @@
-DEV-117390-psr-log-ingestion-libraryfile_path = "/Users/paragfulzele/Downloads/decoded_logs/three_times_numbers.txt"
+"""
+if file has data in  order
+11
+12
+13
+15
+16
+35
+40
+41
+42
+43
+44
+then return output as {11:3, 15:2, 35:1, 40: 5 }
+"""
+file_path = "/Users/paragfulzele/Downloads/decoded_logs/three_times_numbers.txt"
 
 with open(file_path) as f:
     data = f.readlines()
